@@ -1,7 +1,7 @@
 package dsa.queue;
 
 public class QueueImp<T> implements Queue<T>{
-    Object[] arr;
+    private Object[] arr;
     private int front;
     private int end;
 
